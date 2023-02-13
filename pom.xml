@@ -334,7 +334,8 @@
                 <module>jaxrs-client</module>
                 <module>kitchensink</module>
                 <module>numberguess</module>
-                <module>servlet-security</module>
+		<module>servlet-security</module>
+		<module>rob-hello</module>
                 <module>temperature-converter</module>
                 <module>todo-backend</module>
                 <module>thread-racing</module>
