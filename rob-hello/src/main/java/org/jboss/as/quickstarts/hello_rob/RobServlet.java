@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.as.quickstarts.servlet_security;
+package org.jboss.as.quickstarts.hello_rob;
 
 import java.io.IOException;
 import java.io.PrintWriter;

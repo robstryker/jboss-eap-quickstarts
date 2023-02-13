@@ -18,7 +18,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.jboss.as.quickstarts.servlet_security;
+package org.jboss.as.quickstarts.hello_rob;
 
 import java.io.IOException;
 import java.net.URI;
@@ -34,14 +34,14 @@ import org.junit.Test;
  * @author Emmanuel Hugonnet (c) 2022 Red Hat, Inc.
  */
 
-public class RobServletTest {
+public class RemoteSecureIT {
     private static final String ENDPOINT_1 = "hello1";
     private static final String ENDPOINT_2 = "hello2";
 
     protected URI getHTTPEndpoint(String endpoint) {
         String host = getServerHost();
         if (host == null) {
-            host = "http://localhost:8080/rob-hello";
+            host = "http://localhost:8080/hello-rob";
         }
         try {
             return new URI(host + "/" + endpoint);
@@ -56,6 +56,11 @@ public class RobServletTest {
             host = System.getProperty("server.host");
         }
         return host;
+    }
+
+    @Test
+    public void autoSuccess() throws IOException, InterruptedException {
+        System.out.println("WE ARE RUNNING RemoteSecureIT TEST");
     }
 
     @Test

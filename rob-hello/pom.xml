@@ -19,7 +19,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <?m2e ignore?>
         <groupId>org.jboss.eap.quickstarts</groupId>
         <artifactId>jboss-eap-quickstart-parent</artifactId>
         <!--
@@ -30,11 +29,11 @@
         <relativePath/>
     </parent>
 
-    <artifactId>rob-hello</artifactId>
+    <artifactId>hello-rob</artifactId>
     <version>8.0.0.Beta</version>
     <packaging>war</packaging>
-    <name>Quickstart: rob-hello</name>
-    <description>This project demonstrates rob doing random stuff</description>
+    <name>Quickstart: hello-rob</name>
+    <description>This project demonstrates fast deployment hello world</description>
 
     <licenses>
         <license>
