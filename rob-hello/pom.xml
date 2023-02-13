@@ -260,11 +260,8 @@
                         <version>${version.failsafe.plugin}</version>
                         <configuration>
                             <includes>
-                                <include>**/RemoteSecureIT</include>
+                                <include>**/*IT</include>
                             </includes>
-                            <excludes>
-                                <exclude>**/ProvisionedManagedSecureIT</exclude>
-                            </excludes>
                         </configuration>
                         <executions>
                             <execution>

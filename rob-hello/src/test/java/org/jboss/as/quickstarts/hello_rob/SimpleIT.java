@@ -34,7 +34,7 @@ import org.junit.Test;
  * @author Emmanuel Hugonnet (c) 2022 Red Hat, Inc.
  */
 
-public class RemoteSecureIT {
+public class SimpleIT {
     private static final String ENDPOINT_1 = "hello1";
     private static final String ENDPOINT_2 = "hello2";
 
