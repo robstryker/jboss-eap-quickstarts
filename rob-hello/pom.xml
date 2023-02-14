@@ -29,10 +29,10 @@
         <relativePath/>
     </parent>
 
-    <artifactId>hello-rob</artifactId>
+    <artifactId>rob-hello</artifactId>
     <version>8.0.0.Beta</version>
     <packaging>war</packaging>
-    <name>Quickstart: hello-rob</name>
+    <name>Quickstart: rob-hello</name>
     <description>This project demonstrates fast deployment hello world</description>
 
     <licenses>
